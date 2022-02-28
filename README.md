@@ -6,7 +6,7 @@ You can also edit the code to add a domain user to the local administrator group
 Open the solution in Visual Studio (tested only on Visual Studio 2019 Community Edition) and compile the EXE for the desired architecture (x86, x64); in the Release mode the PBD file is removed.
 
 ## Customize
-To create custom user just edit the file `Program.cs` the desired username, password, group and domain.
+To create custom user just edit the file `Program.cs` with the desired username, password, group and domain.
 
 ## Usage
 * Standalone: `.\LocalAdminSharp.exe`
